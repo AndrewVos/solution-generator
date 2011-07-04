@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/solution-generator'
+
+if ARGV.size < 2
+  puts "Usage:"
+  puts <<-USAGE
+  solution-generator <solution_name> <project_name> <project_name> <project_name>
+  USAGE
+  exit
+end
+
+solution_name = ARGV[0]
+projects = ARGV - [solution_name]
+projects = projects.map {|p| Dir.glob("**/#{p}.csproj").first}
+SolutionGenerator::generate(solution_name + ".sln", projects)
