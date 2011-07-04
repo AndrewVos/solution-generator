@@ -8,7 +8,7 @@ solution-generator <solution_name> <project_name> <project_name> <project_name>
 License
 =======
 
-Copyright (C) <year> by <copyright holders>
+Copyright (C) 2011 by Andrew Vos
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
