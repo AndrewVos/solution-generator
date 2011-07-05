@@ -1,9 +1,9 @@
 What?
 =====
 
-If you have a particularly huge Visual Studio solution then loading it up can be quite a pain and really slow down your development time.
+Visual Studio solutions that contain a large number of projects can really slow Visual Studio down.
 
-Solution generator will take some project names and generate a solution file that includes all their project dependencies so that you can just work with an isolated set.
+Solution generator will take some project names and generate a solution file that includes all their project references so that you can work with an isolated set.
 
 Usage
 =====
